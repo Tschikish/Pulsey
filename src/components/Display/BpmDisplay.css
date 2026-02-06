@@ -1,0 +1,35 @@
+.status {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.measuring {
+  animation: pulseText 1s infinite alternate;
+}
+
+@keyframes pulseText {
+  from { opacity: 0.5; }
+  to { opacity: 1; }
+}
+
+.bpm {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: baseline;
+  width: 100%;
+}
+
+.value {
+  grid-column: 2;
+  justify-self: center;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.unit {
+  grid-column: 3;
+  justify-self: start;
+  font-size: 30px;
+  opacity: 0.8;
+}
+
