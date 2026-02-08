@@ -1,5 +1,5 @@
 .heart-button {
-  font-size: 15rem;
+    font-size: clamp(13rem, 25vw, 15rem);
   background: none;
   border: none;
   cursor: pointer;

@@ -6,11 +6,11 @@ type BpmDisplayProps = {
 };
 
 export function BpmDisplay({ bpm, taps }: BpmDisplayProps) {
-  if (taps < 2) {
+  if (taps < 1) {
     return <p className="status">Tap the heart to start</p>;
   }
 
-  if (taps < 3) {
+  if (taps < 2) {
     return <p className="status measuring">Measuring…</p>;
   }
 

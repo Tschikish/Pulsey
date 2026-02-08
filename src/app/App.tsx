@@ -10,9 +10,19 @@ export default function App() {
   return (
     <div className="app">
       <div className="card">
-        <HeartButton onTap={tap} />
-        <BpmDisplay bpm={bpm} taps={taps} />
-        <button className="reset-btn" onClick={reset}>Reset</button>
+        <div className="card-slot card-slot-heart">
+          <HeartButton onTap={tap} />
+        </div>
+
+        <div className="card-slot card-slot-bpm">
+          <BpmDisplay bpm={bpm} taps={taps} />
+        </div>
+
+        <div className="card-slot card-slot-reset">
+          <button className="reset-btn" onClick={reset}>
+            Reset
+          </button>
+        </div>
       </div>
     </div>
   );
