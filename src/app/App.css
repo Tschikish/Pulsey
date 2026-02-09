@@ -61,7 +61,7 @@
 
   justify-items: stretch;
 
-  width: clamp(300px, 90vw, 420px);
+  width: clamp(280px, 90vw, 420px);
 
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
