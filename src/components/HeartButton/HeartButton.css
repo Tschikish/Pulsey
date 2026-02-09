@@ -1,12 +1,14 @@
 .heart-button {
-    font-size: clamp(13rem, 25vw, 15rem);
+  font-size: clamp(11rem, 18vw, 15rem);
   background: none;
   border: none;
   cursor: pointer;
   user-select: none;
 
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.25));
-  transition: transform 0.12s ease, filter 0.12s ease;
+  transition:
+    transform 0.12s ease,
+    filter 0.12s ease;
 }
 
 .heart-button:active {
